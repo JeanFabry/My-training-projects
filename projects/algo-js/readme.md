@@ -1,4 +1,4 @@
-##About Algo JS
+## About Algo JS
 
 These are exercises I did to learn the basics of javascript. 
 
