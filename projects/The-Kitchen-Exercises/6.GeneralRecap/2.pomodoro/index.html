@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+    <h1>Pomodoro Timer</h1>
+</header>
+
+    <section>
+        <div class="left">
+            <img src="./Assets/tomatoLine.png" alt="">
+            <div class="scene">
+                <div class="carousel">
+                </div>
+            </div>
+        </div>
+        <div class="right">
+
+            <div class="explain_the_rules">
+                <p id="explain_pomodoro">The rules of the Pomodoro timer are very simple.
+                    You work for 25 minutes, then you have a 5min break after 4 laps you have the right to a 15min
+                    break.
+                    Take the opportunity to make yourself a coffee and walk around a bit.</p>
+            </div>
+            <div class="container">
+                <div class="container_left">
+                    <p class="time">25 : 00</p>
+                    <div class="button">
+                        <button class="start">START</button>
+                        <button class="stop">PAUSE</button>
+                        <button class="reset">RESET</button>
+                    </div>
+                </div>
+                <div class="container_right">
+                    <p class="pause"> 5:00</p>
+                    <p class="tour_break"></p>
+                    <p class="break_pause">15:00</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- <button>Start</button> -->
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

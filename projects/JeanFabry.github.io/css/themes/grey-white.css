@@ -1,0 +1,25 @@
+/* Theme */
+
+main {
+	background-image: url(https://raw.githubusercontent.com/JeanFabry/JeanFabry.github.io/master/css/themes/Background%20image.jpg);
+	color: #FAFAFA;
+	background-size: cover;
+}
+
+
+.icons-social a {
+	color: #FAFAFA;
+}
+
+.icons-social i:hover{
+	cursor: pointer;
+	color: #4d1a00;
+	transition: transform .2s;
+	-ms-transform: scale(1.25); /* IE 9 /
+    -webkit-transform: scale(1.25); / Safari 3-8 */
+	transform: scale(1.25);
+}
+
+.icons-social a svg path{
+	fill: #FAFAFA;
+}

@@ -1,0 +1,57 @@
+@media only screen and (min-width: 900px) {
+    body {
+        background-color: blue;
+        color: white;
+        font-size: 20px;
+        display: flex;
+    }
+
+    /* #medium {
+        display: none;
+    }
+
+    #small {
+        display: none;
+    } */
+}
+
+@media only screen and (max-width: 900px) and (min-width: 300px) {
+    body {
+        background-color: green;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #small {
+        /* display: none; */
+        width: 66%;
+    }
+
+    #medium {
+        width:33%;
+    }
+
+    #large {
+        /* display: none; */
+        width: 100%;
+    } 
+}
+
+@media only screen and (min-width: 0px) and (max-width: 300px) {
+    body {
+        background-color: red;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* #medium {
+        display: none;
+    }
+
+    #large {
+        display: none;
+    } */
+
+}

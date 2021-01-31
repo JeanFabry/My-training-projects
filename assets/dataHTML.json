@@ -1,0 +1,22 @@
+{
+    "Integration": {
+        "link": "projects\/Turlututu\/index.html",
+        "img":"assets\/previews\/integration.png",
+        "description":"I practiced the basics of HTML5 & CSS3 by integrating a page for a fictional brand called 'turlututu', using only a <a href='https://github.com/becodeorg/bxl-hopper-1-25/blob/master/The%20Field/3.HTML%2BCSS/0.progressive_enhancement/turlututu.png'> picture.</a>"
+    },
+    "Responsiveness": {
+        "link": "projects\/responsive\/index.html",
+        "img":"assets\/previews\/responsive.png",
+        "description":"I tested the concept of responsiveness through the use of media queries. On this page, I made the background change color based on the size of the screen."
+    },
+    "HTML-CSS discovery": {
+        "link": "projects\/progressive-enhancement\/index.html",
+        "img":"assets\/previews\/chineseFarmer.png",
+        "description":"I followed a set of <a href='https://github.com/becodeorg/bxl-hopper-1-25/tree/master/The%20Field/3.HTML%2BCSS/0.progressive_enhancement'> requests</a> to implement this web page. Through them, I learned to apply HTML Semantics and most of HTML basic tags."
+    },
+    "Personal presentation attempt": {
+        "link": "projects\/JeanFabry.github.io\/index.html",
+        "img":"assets\/previews\/porfolio.png",
+        "description":"Through this first coding project, I applied basic skills of HTML and CSS to create a draft of a dev landing page, with my name and social media links."
+    }
+}

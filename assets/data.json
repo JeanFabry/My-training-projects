@@ -1,0 +1,53 @@
+{
+    "Intro to three.js": {
+        "link": "projects\/The-Kitchen-Exercises\/6.GeneralRecap\/3.LandingPage\/index.html",
+        "img":"assets\/previews\/threejs.png",
+        "description":"I used my basic knowledges of the javascript library 'Three.js' to create a 3D rotating cube."
+    },
+    "Pomodoro Timer": {
+        "link": "projects\/The-Kitchen-Exercises\/6.GeneralRecap\/2.pomodoro\/index.html",
+        "img":"assets\/previews\/pomodoro.png",
+        "description":"I applied my knowledges of dates, timestamps and events to create a pomodoro timer, which is used to enhance productivity. "
+    },
+    "Markdown translator": {
+        "link": "projects\/The-Kitchen-Exercises\/6.GeneralRecap\/1.theMarkdownEditor\/index.html",
+        "img":"assets\/previews\/mardownTranslator.png",
+        "description":"I applied my knowledges of Regular Expressions (REGEX) to create a markdown translator, which gives you an overview a what your markdown code would look like."
+    },
+    "Quizz generator": {
+        "link": "projects\/The-Kitchen-Exercises\/6.GeneralRecap\/4.theQuizz\/index.html",
+        "img":"assets\/previews\/quizzGenerator.png",
+        "description":"I applied my knowledges of API and of the 'fetch' function to generate a quizz on a topic of choice, using the API of 'Open Trivia Database'."
+    },
+    "Canvas": {
+        "link": "projects\/The-Kitchen-Exercises\/4.a.Canvas\/index.html",
+        "img":"assets\/previews\/canvas.png",
+        "description":"I used my knowledges of canvas to create a 'paint' lookalike tool, where users can draw anything they want."
+    },
+    "Regex": {
+        "link": "projects\/The-Kitchen-Exercises\/4.b.Regexp\/RegexTester\/index.html",
+        "img":"assets\/previews\/regexTester.png",
+        "description":"I applied my knowledges of Regular Expressions (REGEX) to create a REGEX tester, where a user can check if its REGEX searches exactly for what the user expects it to search."
+    },
+    "Fetches and API": {
+        "link": "projects\/The-Kitchen-Exercises\/5.Async\/exercise3\/index.html",
+        "img":"assets\/previews\/fetchesApi.png",
+        "description":"I applied my knowledges of API and of the 'fetch' function to provide the average age and the number of people of the population of a country who has a specific first name, choosen by the user. I used to API of 'Agify' to do so."
+    },
+    "Dates": {
+        "link": "projects\/The-Kitchen-Exercises\/3.Dates\/index.html",
+        "img":"assets\/previews\/dates.png",
+        "description":"I applied my knowledges of dates, timestamps and events to display the date of the day and the current hour."
+    },
+     "Timeouts and Interval": {
+        "link": "projects\/The-Kitchen-Exercises\/2.TimeoutsandInterval\/index.html",
+        "img":"assets\/previews\/timeOuts.png",
+        "description":"I used my knowledge of timeouts and intervals to make a circle fall a certain distance when asked to."
+    },
+    "Events": {
+        "link": "projects\/The-Kitchen-Exercises\/1.DOM-Events\/index.html",
+        "img":"assets\/previews\/events.png",
+        "description":"I used my knowledge of event listeners to display certain outcomes of famous franchises based on the choice of the user."
+    }
+   
+}

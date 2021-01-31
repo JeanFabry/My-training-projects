@@ -1,0 +1,31 @@
+.carreColor {
+    background-color: red;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.inputesDiv {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.green {
+    background-color: green;
+}
+
+.mainBelow{
+    border: 1px solid black; 
+    width:400px;
+    height:400px
+}

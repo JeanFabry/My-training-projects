@@ -1,0 +1,173 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none; 
+} */
+html {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0,5px;
+    color: rgba(22, 22, 22, 0.664);
+    font-size: 16px;
+}
+
+header > h1:first-child {
+    background-color: yellow;
+}
+
+body {
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;      
+    background: -webkit-radial-gradient(rgb(255, 255, 255), rgb(202, 202, 202));
+    background: radial-gradient(rgb(255, 255, 255), rgb(202, 202, 202));
+    background-image: url("https://raw.githubusercontent.com/JeanFabry/progressive-enhancement/main/Side%20files/gettyimages-1060912842-612x612.jpg");
+    background-repeat:no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+
+blockquote {
+    max-width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 160%;
+    background-color: #f5f5f5;
+    border-left-color: firebrick;
+    border-left: 3px solid firebrick;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-left: 30px;
+}
+
+q {
+font-style: italic;
+display: list-item;
+list-style: none;
+}
+
+.villager{
+    border-left: 3px solid red;
+}
+
+.farmer{
+    border-left: 3px solid green;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0,5px;
+    color: rgba(22, 22, 22, 0.664);
+    font-size: 16px;
+}
+
+.bold {
+   font-weight: bold;
+}
+
+a {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: italic;
+    color:#000000;
+}
+
+a:hover{
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: italic;
+    color:#c56002;
+}
+
+a:visited {
+    font-weight: 100;
+    font-variant: normal;
+    background-color:#00b30f;
+}
+
+[alt] {
+    font-weight: bold;
+}
+
+
+.good, .bad{
+    text-transform: capitalize;
+}
+
+.bad {
+    color:red;
+}
+
+.good {
+    color:green;
+}
+
+tr > td {
+    border: 2px solid black;
+ }
+
+tr {
+    background-color: #303030;
+}
+
+tr:nth-child(odd) td:nth-child(even) {
+    background-color: white;
+}
+
+tr:nth-child(even) td:nth-child(odd) {
+    background-color: white;
+}
+
+ul {
+    display: inline-block;
+    width: fit-content;
+    margin: 20px;
+}
+
+li {
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-right: 30px;
+    background-size: contain;
+}
+
+ul li:nth-child(1) {
+    background-image: url(/bien.png);
+}
+
+ul li:nth-child(2) {
+    background-image: url(/mal.png);
+}
+
+ul li:nth-child(3) {
+    background-image: url(/chat.png);
+}
+
+section{
+    display: flex;
+    justify-content: space-between; 
+}
+
+section, p {
+    max-width: 40%; 
+}
+
+section, img {
+    max-width: 100%;
+}
+
+.notification{
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    position: fixed; 
+    bottom:0;
+    right:0;
+  }

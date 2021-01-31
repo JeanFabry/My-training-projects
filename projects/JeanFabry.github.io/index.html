@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Jean Fabry | Awesome Dev</title>
+
+	<link rel="icon" href="favicon.ico" type="image/png" />
+
+	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/themes/grey-white.css">
+	<!-- You can change the theme by shifting the css link <link rel="stylesheet" href="css/themes/green-white.css"> -->
+
+</head>
+<body>
+	<main>
+		<div id="intro">Hello, I'm Jean !</div>
+		<img id="img_appa" src="https://raw.githubusercontent.com/JeanFabry/JeanFabry.github.io/master/css/themes/Image%20of%20me.jpg" />
+			<div class="tagline">| Junior Web Dev |</div>
+		<!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
+		<div class="icons-social">
+			<a target="_blank" href="https://github.com/JeanFabry"><i class="fab fa-github"></i></a>
+			<!--<a target="_blank" href="https://twitter.com/flexdinesh"><i class="fab fa-twitter"></i></a>
+			<a target="_blank" href="https://dev.to/flexdinesh"><i class="fab fa-dev"></i></a>
+			<a target="_blank" href="https://stackoverflow.com/story/flexdinesh"><i class="fab fa-stack-overflow"></i></a>-->
+			<a target="_blank" href="https://www.linkedin.com/in/jean-fabry-5423a111b/"><i class="fab fa-linkedin"></i></a>
+			<!--<a target="_blank" href="https://medium.com/@flexdinesh"><i class="fab fa-medium"></i></a>
+			<a target="_blank" href="https://www.freecodecamp.org"><i class="fab fa-free-code-camp"></i></a>
+			<a target="_blank" href="https://www.behance.net"><i class="fab fa-behance"></i></a>
+			<a target="_blank" href="https://codepen.io"><i class="fab fa-codepen"></i></a>-->
+			<!--<a target="_blank" href="Jean Fabry#3752"><i class="fab fa-discord"></i></a>-->
+			<!-- Discord specific Icon & function -->
+			<i class="fab fa-discord" onclick="myFunction()"></i> 
+			<input type="text" value="Jean Fabry#3752" id="affichagediscord">
+		</div>
+		<div id="alert">You've just copied my discord username: Jean Fabry#3752 </div>
+	
+	<script src=https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js></script>
+	<script>
+		document.getElementById("alert").style.display = "none";
+		document.getElementById("img_appa").style.display = "none";
+
+		document.getElementById("intro").onmouseover = function(event) {
+			document.getElementById("img_appa").style.display = "block";
+		};
+
+		/*document.getElementById("intro").onmouseover = function(event) {
+			let img_trans=anime({
+                targets:'#img_appa',
+                translateX:20,
+				duration: 2500,
+				autoplay:false,
+				style.display="block",
+             });
+			img_trans.play();*/
+
+		/*function myphoto(){
+            let img_trans=anime({
+                targets:'#img_appa',
+				translateX:200,
+				autoplay:false,
+				duration: 2500,
+             });
+			document.querySelector('#intro').addEventListener('mouseover',()=>{img_trans.play();});*/
+
+ 		document.getElementById("intro").onmouseout = function(event) {
+			document.getElementById("img_appa").style.display = "none";
+		};
+
+		/*function myphoto() {
+			document.getElementById("img_appa").style.display = "block";	
+		};	
+
+		function myphotoout() {
+			document.getElementById("img_appa").style.display = "none";
+		};*/
+
+		function myFunction() {
+		/* Get the text field */
+		var copyText = document.getElementById("affichagediscord");
+		/* Select the text field */
+		copyText.select();
+		copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+		/* Copy the text inside the text field */
+		document.execCommand("copy");
+		/* Write */
+		document.getElementById("alert").style.display = "block";
+		setInterval(function(){ document.getElementById("alert").style.display = "none" }, 3000);
+		};
+
+		
+
+		/*function myphoto(){
+            let img_appa=anime({
+                targets:'',
+                translateX:560,
+                autoplay:false,
+                duration: 2500
+             })
+			document.querySelector('#header').addEventListener('mouseover',()=>{img_appa.play();})*/
+
+	</script> 
+	
+	</main>
+</body>
+</html>

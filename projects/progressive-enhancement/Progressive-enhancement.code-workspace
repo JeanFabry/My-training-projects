@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "progressive-enhancement",
+		"files.autoSave": "afterDelay",
+		"liveServer.settings.port": 5501
+	}
+}

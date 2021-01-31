@@ -1,0 +1,45 @@
+.translator{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1,h2,h3,li{
+    margin:0;
+    padding:0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+textarea {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 95vh;
+    width: 45vw;
+    border: 1px solid black;
+    text-align: left;
+    vertical-align: top;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:8vw
+}
+
+.translation {
+    height: 95vh;
+    width: 45vw;
+    border: 1px solid black;
+    /* text-align: left;
+    vertical-align: top; */
+    overflow-wrap: break-word;
+    overflow: scroll;
+}

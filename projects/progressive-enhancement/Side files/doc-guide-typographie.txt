@@ -1,0 +1,131 @@
+Petit guide des polices et de la typographie
+
+On a beau répéter que l'image prend de plus en plus de place sur le web, il y a également un élément indissociable de notre toile adorée depuis sa création : l'écriture, et les différentes formes qu'elle peut prendre.
+Je crois d'ailleurs qu'elle occupe une place de plus en plus importante sur les sites modernes, le design de certains d'entre eux reposant en grande partie sur le choix, la taille, la couleur et l'emplacement de la typographie.
+Remarque que je parle de web, mais n'importe quelle publication numérique ou sur papier est concernée au même titre.
+Si beaucoup ont tendance à négliger cet aspect, les amateurs de belles réalisations seront au contraire très attentifs. Que celui qui n'a jamais vomi devant un document important écrit en Comic Sans MS me jette la première pierre.
+Cependant, lorsque l'on souhaite choisir une police et la mettre en forme proprement pour n'importe quelle réalisation, l'étendue des possibilités est gigantesque.
+Voici donc un petit guide sans prétention destiné à connaître l'essentiel sur le sujet.
+
+Quelques notions de base
+[img src="http://coreight.com/sites/default/files/typographie.jpg" ]
+
+	Polices et fontes
+On voit souvent les deux termes utilisés indifféremment, alors qu'on ne parle pas exactement de la même chose.
+En gros la police est l'ensemble des représentations de caractères d'une même famille, quelle que soit la taille et la graisse utilisées.
+En revanche la fonte désigne précisément des caractéristique de corps, graisse et italique pour une police donnée.
+Exemples :
+- Arial est une police
+- Arial gras 12 point est une fonte
+
+C'est aussi simple que ça.
+
+	Serif ou sans serif ? La classification des polices
+
+Afin de mettre un peu d'ordre parmi les multiples possibilités, plusieurs classifications ont vu le jour au fil des années, dont je te passerai l'historique (<a href="http://fr.wikipedia.org/wiki/Police_d%C3%A9criture#Classifications" target="_blank" title="Classifications des polices d'écriture">plus d'infos ici</a>)
+La plus utilisée aujourd'hui, surtout sur le web, est celle du W3C qui nous donne les grandes familles suivantes :
+
+[ image : http://coreight.com/sites/default/files/times.png]
+- serif : polices à empattement (exemples : Times New Roman, Georgia, Garamond...)
+ 
+[ image : http://coreight.com/sites/default/files/helvetica.png]
+- sans-serif : polices sans empattement (ex : Arial, Helvetica, Tahoma, Verdana...)
+ 
+[ image : http://coreight.com/sites/default/files/lucida.png]
+- cursive : polices simulant l'écriture à la main (ex: Lucida Handwriting, mais aussi Comic Sans MS (et ouais !))
+ 
+[ image : http://coreight.com/sites/default/files/blackletter.png]
+- fantasy : polices plus exotiques, décoratives (ex : Impact, Fraktur...)
+(<a href="http://coreight.com/content/polices-celebres-films-cinema-telecharger-gratuitement" target="_blank" title="Des polices célèbres de films à télécharger gratuitement">une collection de polices célèbres de films</a>)
+[ image : http://coreight.com/sites/default/files/courier.png]
+- monospace : polices à chasse fixe (largeur utilisée pour chaque caractère) (ex : Courier New, Lucida Console...)
+
+Une illustration plus parlante :
+[ image : http://coreight.com/sites/default/files/monospace.png]
+
+	Quelle famille de police choisir alors ?
+
+Tout dépendra bien sûr de l'usage que tu vas en faire. Sur des grands blocs de textes, il faut essayer de ne pas perturber le lecteur, et préférer des polices sobres et habituelles, type serif et sans-serif (ou en tout cas proches visuellement de modèles habituels). J'ai lu ça et là qu'il vaudrait mieux préférer les polices sans-serif sur le web, plus facile à lire, mais je reste perplexe puisque certains services dédiés à la lecture comme <a href="http://medium.com" target="_blank" title="medium">Medium</a> utilisent des polices serif pour le corps du texte.
+Quant aux polices plus originales, mieux vaut les réserver aux titres ou a des blocs de textes courts (citations, mise en valeur...)
+
+	La structure des lettres
+Il existe un tas de termes barbares pour désigner toutes les subtilités des caractères.
+Un dessin valant parfois mieux qu'un long discours, je pense que tu trouveras ton bonheur avec ça :
+[ image : http://coreight.com/sites/default/files/typo.png]
+J'ajouterais également deux autres termes : la hampe qui correspond à la partie au dessus de la Hauteur d'x, et le jambage sous la ligne de base.
+(<a href="http://cdn-5.lifehack.org/wp-content/files/2013/12/pictypo2.jpg">une version anglaise plus complète ici</a>, et <a href="http://www.fonts.com/content/learning/fontology/level-1/type-anatomy/anatomy" target="_blank" title="Anatomy of a Character">tout un article là</a>)
+
+	La taille des polices
+[ image : http://coreight.com/sites/default/files/police-taille.png]
+Exprimée au choix en point, pixels, ou en valeur relative (em ou %), la taille désigne en fait la hauteur du corps de la police (cf schéma au dessus).
+Attention cependant, l'affichage pourra rendre complètement différemment selon la police : 2 polices en 12 points n'auront pas forcément la même taille et surtout la même largeur.
+ 
+ 
+
+	La graisse
+[ image : http://coreight.com/sites/default/files/graisse.png]
+La graisse correspond tout simplement à l'épaisseur du trait, et permet de mettre en valeur certains mots, titres, paragraphes...
+En partant d'une graisse dite normale ou regular (font-weight: 400 en CSS), on peut aussi bien grossir le trait vers gras, heavy, black (avec tous les intermédiaires), ou au contraire l'affiner avec léger (light), extra-light, ultra-light.
+C'est d'ailleurs une tendance que l'on trouve de plus en plus souvent dans le webdesign moderne : des polices de grande taille avec des caractères très fin.
+
+Bien utiliser les polices, quelques conseils
+[ image : http://coreight.com/sites/default/files/polices-dessin.jpg]
+
+	Ne pas mélanger trop de polices différentes
+[ image : http://coreight.com/sites/default/files/polices-differentes.png]
+C'est un défaut que l'on retrouve très souvent dans les publications amateurs : chaque information sera écrite avec une fonte totalement différente : une police fantasy pour le titre, une police serif en gras pour la date, une police sans-serif en italique pour le lieu... et tout le reste en <a href="http://www.comicsanscriminal.com/" target="_blank" title="Comic Sans MS">Comic Sans MS</a> bien entendu.
+Il est souvent plus prudent de limiter le nombre de polices différentes sur un même document. Les variations de taille, de graisse voir de couleur doivent déjà permettre de mettre en valeur les différents éléments.
+Donc avec 2-3 polices différentes, tu devrais t'en sortir.
+
+	Les combinaisons de polices
+[ image : http://coreight.com/sites/default/files/polices-combinaison.png]
+Maintenant que tu connais tout des différentes familles de police, et que tu sais qu'il ne faut pas trop exagérer sur leur nombre dans un même document, tu vas pouvoir jouer à les combiner.
+Le jeu pour que ça fonctionne est qu'elles soient suffisamment différentes pour être facilement reconnaissables, mais pas trop pour que l'ensemble paraisse homogène.
+Je trouve l'exemple ci-contre assez parlant. Pas de faute grave sur le premier exemple, mais en effet la lecture est plus difficile qu'avec les deux autres, car le contraste entre les deux polices est trop élevé.
+N'oublie pas également que tu peux jouer sur la taille, la graisse, la couleur, la décoration
+(<a href="http://www.noupe.com/design/a-crash-course-in-typography-principles-for-combining-typefaces.html" target="_blank" title="A Crash Course in Typography: Principles for Combining Typefaces">plus d'infos (en anglais)</a>, <a href="http://www.smashingmagazine.com/2013/02/26/creating-visual-hierarchies-typography/" target="_blank" title="Creating Exciting And Unusual Visual Hierarchies">mais aussi ici</a>)
+
+	Modifier les polices ?
+[ image : http://coreight.com/sites/default/files/police-modifier.jpg]
+N'oublie pas également qu'une même police peut-être adaptée selon tes besoins, car on peut jouer sur la hauteur des interlignes, ou l'espacement entre les caractères (exemple ci-contre sous Gimp)
+
+	La mise en forme des paragraphes
+[ image : http://coreight.com/sites/default/files/paragraphe.jpg]
+Les caractères, c'est une chose, mais autant les utiliser dans des ensembles clairs et cohérents
+Premier point, la séparation entre deux paragraphes. Pour bien faire la distinction, tu peux soit laisser un espace libre entre les deux, soit débuter le second avec un alinéa.
+	Mais pas les deux ! C'est comme boire ou conduire, ou Julie ou Valérie, il faut choisir.
+("non, t'as pas osé la placer celle là ?"
+Bah si")
+Deuxième point : faut-il justifier le texte ou l'aligner à gauche ?
+Autant sur un format d'impression, où l'on maîtrise le rendu final, la justification peut se justifier (pouet), autant sur le web où l'on aura autant de rendus différents que de taille d'écran et de fenêtre, c'est ingérable, et l'on risque de se retrouver avec de loooooooooooooongs espaces entre les mots.
+Donc l'alignement à gauche est très bien, il donne en plus une meilleure vision des différentes lignes de texte, rendant plus facile la lecture rapide.
+N'hésite pas également à utiliser des grilles sur tes outils de mise en page pour aligner l'ensemble des textes correctement, et respecter les espacements.
+(<a href="http://www.smashingmagazine.com/2011/08/15/mind-your-en-and-em-dashes-typographic-etiquette/" target="_blank" title="Mind Your En And Em Dashes: Typographic Etiquette">pour en savoir plus (en anglais)</a>)
+
+	Attention aux espaces et à la ponctuation !
+Voilà bien un truc qui m'énerve, car certains n'ont pas dû apprendre les règles à l'école :
+- on met une espace après un point ou une virgule (et pas avant !). On les appelle d'ailleurs des signes simples, et la règle est "signe simple, espace simple"
+	- Pour les ! ? : ; on met une espace avant, une espace après (signe double, espace double)
+	- pour les () [] {} et les guillemets, on met des espaces à l'extérieur, pas à l'intérieur
+
+
+Quelle police sur le web ? L'utilité des web fonts
+[ image : http://coreight.com/sites/default/files/web-fonts.jpg]
+Aux origines du web, nous étions un peu limité en termes de polices de caractère, puisque pour qu'une police s'affiche sur le navigateur d'un gentil internaute, il fallait qu'elle soit déjà installée sur son ordinateur.
+Bien heureusement, une propriété CSS a commencé à être pris en compte de plus en plus souvent par les navigateurs, la propriété @font-face.
+Celle-ci permet d'utiliser des polices présentes sur le web, même si elles ne sont pas installées sur l'appareil qui consulte la page. Des bibliothèques de polices fleurissent alors un peu partout pour pouvoir faire son choix parmi des milliers de références.
+<a href="http://www.google.com/fonts/" target="_blank" title="Google Web Fonts">Google Web Fonts</a> par exemple est assez performante et facile à mettre en place.
+<a href="http://www.alsacreations.com/astuce/lire/630-fonte-personnalisee-site-web.html" target="_blank" title="Comment utiliser une fonte «non-standard» sur un site Web ?">Un article complet sur Alsacréations</a>.
+ 
+ 
+Te voilà désormais incollable sur les polices et la typographie, je compléterai sans doute cet article si d'autres choses me viennent... et avec tes commentaires bien entendu.
+ 
+Pour en savoir plus sur les polices et la typographie :
+<a href="http://www.lifehack.org/articles/technology/how-get-really-good-typography-one-month.html" target="_blank" title="How to Get Really Good at Typography in One Month">How to Get Really Good at Typography in One Month</a>
+	<a href="http://www.texteur.net/accueil.html" target="_blank" title="Du bon usage de la typographie sur la toile">Du bon usage de la typographie sur la toile</a>
+	<a href="http://www.alsacreations.com/article/lire/631-quelles-polices-pour-un-site-web.html" target="_blank" title="Quelles polices de caractères (fontes) utiliser sur le Web ?">Quelles polices de caractères (fontes) utiliser sur le Web ?</a>
+	
+	
+	
+-------	
+source: https://coreight.com/content/guide-polices-typographie

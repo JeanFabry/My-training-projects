@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(251, 253, 255);
+height: 100%;
+width: 100vw;
+}
+.navbaar{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navbaar>.linkHome{
+    margin-right: 10px;
+}
+
+.navbaar>a,
+.navbaar>div{
+    margin-right: 30px;
+}
+
+h1 {
+    font-size: 50px;
+
+}
+
+h2{
+    font-size: 25px;
+    margin:30px 0;
+}
+
+.iconify {
+    width: 30px;
+    height: 30px;
+     transition: ease-in-out 0.3s;
+}
+
+.iconify:hover {
+    color: black;
+     width: 33px;
+     height: 33px;
+}
+
+header{
+    padding-top: 30px;
+
+}
+
+.dropdown-menu {
+    transition: ease-in-out 1s;
+}
+.card{
+    transition: 0.3s ease-in-out;
+      height: 100%
+}
+
+.card:hover {
+   transform: scale(1.05);
+}
+.card-image{
+    border-bottom:1px solid rgb(218, 218, 218);
+}
+
+.presentation{
+     margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.presentation p, h1, h2 {
+   padding-left: 15px;
+}

@@ -1,0 +1,24 @@
+section {
+    display: flex;
+}
+
+.colorBox {
+    border:1px solid black;
+height:50px;
+width:50px}
+
+.lineSize{
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
+    margin-top: 30px;
+}
+
+.lineSizeBox {
+display: flex;
+justify-content: center;
+align-items: center;
+border:1px solid black;
+height:50px;
+width:50px;
+/* background-color:black;*/} 

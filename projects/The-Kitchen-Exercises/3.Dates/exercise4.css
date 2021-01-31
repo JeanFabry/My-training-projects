@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: #EAEAEA;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mainDiv{
+    display: flex;
+    height: 70vh;
+    width: 60vw;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.leftCard {
+    height: 70vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.leftCardUp, .leftCardDown {
+    background-color: #B03737;
+    height: 12vh;
+    color: white;
+}
+
+.leftCardUp, .leftCardDown, .leftCardMiddle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    
+}
+
+.leftCardUp{
+    border-radius: 50px 50px 0 0;
+    border: 5px solid #912C2C;
+    border-bottom: transparent;
+}
+
+.leftCardDown{
+    border-radius: 0 0 50px 50px ;
+    border: 5px solid #912C2C;
+    border-top: transparent;
+}
+
+.leftCardMiddle {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: white;
+    border: 5px solid #D3D3D3;
+    border-top: transparent;
+    border-bottom: transparent;
+    height: 46vh;
+    color: #909090;
+    font-size: 100px;
+}
+
+.rightClock {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    font-size: 80px;
+    color:#474747
+}

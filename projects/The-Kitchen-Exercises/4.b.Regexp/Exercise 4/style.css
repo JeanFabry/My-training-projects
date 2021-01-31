@@ -1,0 +1,29 @@
+.red{
+    color:red;
+}
+
+.testDiv{
+    height: 100px;
+    border: 1px solid black;
+}
+
+.test1{
+    height: 50px;
+    border: 1px solid black;
+    padding : 5px 0 0 18px;
+    background-color: pink;
+}
+
+.test2{
+    height: 50px;
+    border: 1px solid black;
+    padding : 20px 15px 18% 89vh;
+    background-color: blueviolet;
+}
+
+.test3{
+    height: 50px;
+    border: 1px solid black;
+    padding : 10vh 5% 0 12em;
+    background-color: burlywood
+}

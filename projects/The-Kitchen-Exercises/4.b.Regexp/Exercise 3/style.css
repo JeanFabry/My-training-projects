@@ -1,0 +1,93 @@
+body {
+    font-family:'Roboto',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+main {
+      flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    width:100%;
+    margin:0 350px;
+}
+
+h1{
+    font-size: 4rem;
+   margin-bottom: 0px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.subtitle {
+    margin-top: 0;
+    color: #6F6F6F;
+}
+
+h2 {
+    font-size: 30px;
+       margin-bottom: 0px;
+}
+
+
+.mainDown {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.inputesDiv {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.profileCompletionDiv{
+    margin: 0 50px;
+    color:#464646;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 200px;
+    width: 300px;
+}
+
+.verificationCountdown{
+    font-size:100px;
+}
+
+input {
+    border-radius:4px;
+    height:25px;
+    width:300px;
+    border: 2px solid #464646;
+} 
+
+label {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.inputGreen {
+    border:2px solid green;
+}
+
+.inputRed {
+    border:2px solid red;
+}
+
+.wrong {
+    background-color: red;
+     width:304px;
+     border-radius: 3px;
+     color: white;
+     text-align: center;
+
+}
