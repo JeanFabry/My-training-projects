@@ -13,4 +13,4 @@ These are mostly practices I did to consolidate some new skills/knowledges, most
 * CSS
     
 ## Overview 
-[![preview](./assets/previews/previewTrainingProjects.png)](https://jeanfabry.github.io/Previous-projects/)
+[![preview](./assets/previews/previewTrainingProjects.png)](http://mybecodesidetrainingprojects.rf.gd/)
