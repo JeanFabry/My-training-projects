@@ -20,9 +20,6 @@ The goal of this exercise was to learn the basics from html & CSS through severa
 :white_check_mark: CSS3
 
 ## Preview
-
-![Preview](https://raw.githubusercontent.com/JeanFabry/progressive-enhancement/main/Side%20files/preview%201.png)
-
-![Performance](https://raw.githubusercontent.com/JeanFabry/progressive-enhancement/main/Side%20files/performance%20website.png)
+You can have a look at the outcomes of this project by clicking on "HTML-CSS Discovery", using that [link](http://mybecodesidetrainingprojects.rf.gd/). Feel free to have a look !
 
 *Made with Becode*
