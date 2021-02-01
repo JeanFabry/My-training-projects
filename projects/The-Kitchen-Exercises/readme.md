@@ -3,10 +3,10 @@
 In this project, I followed various [exercise](https://github.com/becodeorg/bxl-hopper-1-25/tree/master/The%20Hill/the%20kitchen) to improve my skills in Javascript. 
 These exercises included topics such as DOM Events, Dates, TimeOuts, Intervals, Regular Expressions (REGEX), etc. 
 
-#Technology 
+# Technology 
 * Javascript (mostly)
 * HTML5
 * CSS3
 
-#Preview
+# Preview
 You can have a look at the outcomes of my practices of most of these exercises directly [here](figma.com/community/plugin/851183094275736358/Figma-to-HTML). Feel free to have a look !
