@@ -22,7 +22,6 @@ The goal of this exercise was to practice the basics from html & CSS by recreati
 
 ## Preview
 
-![Preview](https://raw.githubusercontent.com/becodeorg/bxl-hopper-1-25/master/The%20Field/3.HTML%2BCSS/0.progressive_enhancement/turlututu.png?token=ARM2TZXE67SFMSVZHZCRVX27ULJRG)
-
+You can have a look at the outcomes of this project by clicking on the project called "integration", [here](http://mybecodesidetrainingprojects.rf.gd/). Feel free to have a look !
 
 *Made with Becode*

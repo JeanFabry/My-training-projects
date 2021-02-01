@@ -20,11 +20,6 @@ The goal of this exercise was to learn the basics of Responsive Web Design by di
 :white_check_mark: CSS3
 
 ## Preview
-
-![Preview large](https://raw.githubusercontent.com/JeanFabry/responsive/master/preview%20large%20screen.png)
-
-![Performance medium](https://raw.githubusercontent.com/JeanFabry/responsive/master/preview%20medium%20screen.png)
-
-![Performance small](https://raw.githubusercontent.com/JeanFabry/responsive/master/preview%20small%20screen.png)
+You can have a look at the outcomes of this project by clicking on "Responsiveness", using that [link](http://mybecodesidetrainingprojects.rf.gd/). Feel free to have a look !
 
 *Made with Becode*
