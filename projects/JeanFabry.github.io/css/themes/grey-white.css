@@ -1,7 +1,7 @@
 /* Theme */
 
 main {
-	background-image: url(https://raw.githubusercontent.com/JeanFabry/JeanFabry.github.io/master/css/themes/Background%20image.jpg);
+	background-image: url(./backgroundImage.jpg);
 	color: #FAFAFA;
 	background-size: cover;
 }

@@ -1,6 +1,6 @@
 <?php
 
-$htmlProjects = ["Integration", "Responsiveness", "HTML-CSS discovery", "Personal presentation attempt"];
+$htmlProjects = file_get_contents("./assets/dataHTML.json");
 $javascriptProjects = file_get_contents("./assets/data.json");
 
 
@@ -34,17 +34,16 @@ $javascriptProjects = file_get_contents("./assets/data.json");
           <div class="dropdown-menu" id="dropdown-menu" role="menu">
             <div class="dropdown-content">
               <p> <strong> Javascript </strong></p>
-              <?php foreach (json_decode($javascriptProjects, true) as $key => $array) { ?>
-                <a href='<?php foreach ($array as $link) {
-                            echo $link;
-                          } ?>' target="_blank" class='dropdown-item'> <?= $key ?></a>
+              <?php
+              foreach (json_decode($javascriptProjects, true) as $key => $array) { ?>
+                <a href='<?= $array['link']; ?>' target="_blank" class='dropdown-item'> <?= $key ?></a>
               <?php } ?>
 
               <hr class="dropdown-divider">
               <p> <strong> HTML/CSS </strong></p>
-              <?php foreach ($htmlProjects as $value) {
-                echo "<a href='#' class='dropdown-item'>" . $value . "</a>";
-              } ?>
+              <?php foreach (json_decode($htmlProjects, true) as $key => $array) { ?>
+                <a href='<?= $array['link']; ?>' target="_blank" class='dropdown-item'><?= $key ?></a>
+              <?php } ?>
             </div>
           </div>
         </div>
@@ -93,7 +92,7 @@ $javascriptProjects = file_get_contents("./assets/data.json");
       <hr>
       <h2>HTML/CSS</h2>
       <div class="columns">
-        <?php foreach ($htmlProjects as $value) {
+        <?php foreach (json_decode($htmlProjects) as $value) {
         ?>
 
           <div class="column is-one-fifth">
