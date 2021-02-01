@@ -9,4 +9,5 @@ These exercises included topics such as DOM Events, Dates, TimeOuts, Intervals, 
 * CSS3
 
 # Preview
-You can have a look at the outcomes of my practices of most of these exercises directly [here](figma.com/community/plugin/851183094275736358/Figma-to-HTML). Feel free to have a look !
+You can have a look at the outcomes of my practices of most of these exercises directly [here](http://mybecodesidetrainingprojects.rf.gd/). Feel free to have a look !
+
